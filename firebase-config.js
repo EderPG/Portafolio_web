@@ -6,9 +6,9 @@ import { getStorage, ref, getDownloadURL } from "https://www.gstatic.com/firebas
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDv0ylXMP3UzdPIYfE2Y2E46FtmqGNQoZU",
-  authDomain: "portafolio-5e2ae.firebaseapp.com",
-  projectId: "portafolio-5e2ae",
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
   storageBucket: "portafolio-5e2ae.appspot.com",
   messagingSenderId: "933193265892",
   appId: "1:933193265892:web:59ed915f58d9e591e872f1"
