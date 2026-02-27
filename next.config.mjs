@@ -1,10 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  output: "export",
+  basePath: "/Portafolio_web",
   images: {
     unoptimized: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
   },
 }
 
