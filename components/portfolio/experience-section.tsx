@@ -131,7 +131,7 @@ export function ExperienceSection() {
         {/* Resume link */}
         <div className="mt-12 text-center">
           <a
-            href="/CV_Palomino_Eder.pdf"
+            href="/Portafolio_web/CV_Palomino_Eder.pdf"
             download
             className="inline-flex items-center gap-2 px-6 py-3 border border-primary text-primary font-mono text-sm rounded-lg hover:bg-primary/10 transition-all"
           >

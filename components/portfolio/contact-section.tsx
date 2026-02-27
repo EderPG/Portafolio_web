@@ -25,7 +25,11 @@ export function ContactSection() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // placeholder for form submission
+
+    // Construct mailto link
+    const subject = encodeURIComponent(`Nuevo mensaje de ${formState.name} desde el Portafolio`)
+    const body = encodeURIComponent(formState.message)
+    window.location.href = `mailto:ederPGuriel@outlook.com?subject=${subject}&body=${body}`
   }
 
   return (
@@ -154,10 +158,10 @@ export function ContactSection() {
         <p className="text-center text-sm text-muted-foreground mt-8">
           O escribe directamente a{" "}
           <a
-            href="mailto:cato0271@gmail.com"
+            href="mailto:ederPGuriel@outlook.com"
             className="text-primary hover:underline underline-offset-4 font-mono"
           >
-            cato0271@gmail.com
+            ederPGuriel@outlook.com
           </a>
         </p>
       </div>

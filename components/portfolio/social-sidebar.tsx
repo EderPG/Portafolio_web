@@ -21,7 +21,7 @@ const socials = [
   },
   {
     label: "Email",
-    href: "mailto:cato0271@gmail.com",
+    href: "mailto:ederPGuriel@outlook.com",
     icon: (
       <svg
         className="w-5 h-5"
@@ -63,11 +63,11 @@ export function SocialSidebar() {
       {/* Right sidebar - Email */}
       <div className="hidden lg:flex fixed bottom-0 right-8 flex-col items-center gap-6 z-40">
         <a
-          href="mailto:cato0271@gmail.com"
+          href="mailto:ederPGuriel@outlook.com"
           className="font-mono text-xs text-muted-foreground hover:text-primary transition-colors tracking-widest"
           style={{ writingMode: "vertical-rl" }}
         >
-          cato0271@gmail.com
+          ederPGuriel@outlook.com
         </a>
         <div className="w-px h-24 bg-border" />
       </div>
