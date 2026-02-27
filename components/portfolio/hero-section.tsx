@@ -170,7 +170,7 @@ export function HeroSection() {
 
         <div className="h-10 sm:h-12 flex items-center justify-center mb-8">
           <p className="text-xl sm:text-2xl font-mono text-primary">
-            <TypewriterText text="Ingeniero en Sistemas" delay={800} />
+            <TypewriterText text="Ingeniero en Sistemas Computacionales" delay={800} />
           </p>
         </div>
 
@@ -210,7 +210,7 @@ export function HeroSection() {
 
         {/* Scroll indicator */}
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
-          <span className="text-xs font-mono text-muted-foreground">scroll</span>
+          <span className="text-xs font-mono text-muted-foreground"></span>
           <div className="w-px h-12 bg-gradient-to-b from-primary/50 to-transparent" />
         </div>
       </div>
